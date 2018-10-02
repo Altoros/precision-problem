@@ -20,7 +20,7 @@ import org.junit.Test;
  * <p>
  * This class exists to validate that the org.apache.commons.math3.util.Precision.round(double, ...) methods contain an error in
  * their use of Double.toString(...) to populate the BigDecimal (which is used to perform the rounding).  The problem is that
- * Double.toString(...) does its own rounding witch then can cause the BigDecimal's rounding to produce the incorrect result.
+ * Double.toString(...) does its own rounding which then can cause the BigDecimal's rounding to produce the incorrect result.
  */
 @SuppressWarnings("unused")
 public class PrecisionProblemValidate {
