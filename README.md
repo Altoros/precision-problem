@@ -1,6 +1,6 @@
 # precision-problem
 The purpose of this repository is to provided code that shows that the "Precision.round" method in the
-org.apache.commons/commons-math3 library (version 3.5) as implemented can generate an incorrect result
+org.apache.commons/commons-math3 library (version 3.6.1) as implemented can generate an incorrect result
 over and above the basic inaccuracy of Base-2 floating point representations (in this case Doubles).
 
 Background:<br>
